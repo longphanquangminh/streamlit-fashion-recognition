@@ -14,4 +14,4 @@ See more about Dataset in Kaggle
 ## Application
 Streamlit Web Application
 
-[https://share.streamlit.io/lenguyengiabao/fashion_recognition/app.py](https://share.streamlit.io/lenguyengiabao/fashion_recognition/app.py)
+https://longphanquangminh-streamlit-fashion-recognition-app-ccn7wz.streamlitapp.com
