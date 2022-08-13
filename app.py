@@ -47,12 +47,12 @@ def plot_color(list_color, values):
     return fig1, ax1
 
 def UI():
-    st.markdown("<h1 style='text-align: center; color: black;'>Fashion Recognition</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center; color: black;'>Fashion Recognition - Long Phan</h1>", unsafe_allow_html=True)
     
     _, a, _ = st.columns((1,10, 1))
     a.markdown("<p style='text-align: left; color: black; font-size: 25px;'>A website where you can find all fashion styles in world with only a picture</p>", unsafe_allow_html=True)
     
-    img_file_buffer = a.file_uploader("Upload an image", type=[ "jpg", "jpeg",'png'])
+    img_file_buffer = a.file_uploader("Upload an image", type=[ "jpg", "jpeg",'png','longphan'])
     if img_file_buffer is not None:
         img = np.array(Image.open(img_file_buffer))
         img_draw, list_clothes = predict_od(model_od, img, class_names_detection)
